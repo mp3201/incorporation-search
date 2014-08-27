@@ -12,6 +12,8 @@ Users of this script take full responsibility for any legal issues surrounding w
 Installation
 -------------------
 
+The script is run in the terminal (command line) and requires at least Python 2.7.  You also need the BeautifulSoup and selenium Python modules.
+
 Additional requirements
 -------------------
 
