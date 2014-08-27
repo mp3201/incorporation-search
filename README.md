@@ -19,7 +19,7 @@ Additional requirements
 
 The scraper performs best in either Chrome or Firefox (with WebDriver) installed.  The browser must be open to run the script.  Next, the script assumes the existence of an input file of the form:
 
-id1,id2,company-name,two-letter state abbreviation
+    id1,id2,company-name,two-letter state abbreviation
 
 Use
 -------------------
@@ -31,7 +31,7 @@ After installation, cd to the directory where the script resides.  Make sure tha
 
 Then run the command
 
-  python "get_company_choice.py" -i inputFile.csv -m 1 -x 3 -c outputFolder
+    python "get_company_choice.py" -i inputFile.csv -m 1 -x 3 -c outputFolder
 
 The "-m" is the minimum time between scrapes (i.e. be kind to these websites!).  The "-x" is the maximum wait time between scrapes.
 
