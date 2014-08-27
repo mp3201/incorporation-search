@@ -43,3 +43,9 @@ Sort the input file randomly so you hit the state websites at different times.
 Strings for company names are messy.  They can include "Inc.", "Corp." etc.  I suggest recreating a new file of the failed search results from the first run.  All these company names can be pruned to exclude common strings and then the script can be re-run (with a new input file name and output folder name). 
 
 Next, many companies incorporate in Delaware and/or California along with their home state.  The easiest way to get these additional results is to recreate the main input file, duplicate all non-CA/DE firms and replace their state with DE and CE separately.  You can then run the script again with just these two states as the search.
+
+Attribution
+--------------------
+
+The script was originally written by [Jeffrey Eliasen](https://github.com/seawolf42) with modifications by Cristobal Cheyre and [Michael Ewens](http://ewens.caltech.edu).
+
